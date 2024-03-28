@@ -1,0 +1,35 @@
+step 1: We read the data
+	feature engineering
+step 2: you perform all the EDA your data should be ready for the training all the columns should be numerical
+
+step 3: Feature selection
+	select the import features
+	1) p-value (regression)
+	2) VIF     (regression)
+	3) Highest correlation with target (regression and classification)
+	4) Variance Threshold	 
+	5) Mututal infor classify
+		select k best
+
+step 4: Divide X and y
+step 5: X_train, y_train,x_test, y_test = train_test_split()
+   
+step 6: Model Development
+
+step 7: Predictions
+	LR.predict(X_test)
+	LR.predict([10])
+
+step 8: Evaluation 
+	MSE, RMSE, R2
+
+step 9: coefficienct
+
+=======Model performance you might not happy even though we select the features
+
+we again build the model by apply the standardization
+we again build the model b apply the normalization (LR/DL)
+we again build the model by apply the PCA
+
+Data is modifying 
+but here we will build only Linear regression only
