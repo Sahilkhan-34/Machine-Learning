@@ -7,9 +7,10 @@ step 3: Feature selection
 	1) p-value (regression)
 	2) VIF     (regression)
 	3) Highest correlation with target (regression and classification)
-	4) Variance Threshold	 
-	5) Mututal infor classify
+	4) Variance Threshold	(classification) 
+	5) Mututal infor classify (classification)
 		select k best
+    6) Forward and Backward Selection (we generally dont use it)
 
 step 4: Divide X and y
 step 5: X_train, y_train,x_test, y_test = train_test_split()
@@ -27,9 +28,24 @@ step 9: coefficienct
 
 =======Model performance you might not happy even though we select the features
 
-we again build the model by apply the standardization
+we again build the model by apply the standardization (Other Models)
 we again build the model b apply the normalization (LR/DL)
 we again build the model by apply the PCA
+    PCA: I do not want to drop the feature, i want to use all the feature
 
 Data is modifying 
 but here we will build only Linear regression only
+
+LR : MSE, RMSE, R2-Score
+C : Accuercy score, Cf, pr, rc, f1, 
+
+
+
+
+
+
+
+
+
+
+
