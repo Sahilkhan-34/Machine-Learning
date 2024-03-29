@@ -1,0 +1,10 @@
+In FastAPI:
+
+Use FastAPI instead of Flask.
+Decorate endpoints using @app.get, @app.post, etc insted of @app.route in Flask
+Use async def for defining route functions insted def use in Flask, as FastAPI is asynchronous by default.
+For query parameters, you can use Query directly within the function parameters, providing type hints.
+Return responses as dictionaries or model instances, FastAPI will automatically convert them to JSON.
+Make sure you have FastAPI installed (pip install "fastapi[all]"). 
+You can run the FastAPI app using Uvicorn: 'uvicorn app:app(Application_Name) --host 0.0.0.0 --port 8000'
+This command assumes your script is saved as app.py. Adjust the filename accordingly if it's different.
