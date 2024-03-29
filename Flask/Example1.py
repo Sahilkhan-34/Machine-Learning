@@ -6,7 +6,14 @@ POSTMAN is an application to test these urls working or not
 
 """
 
-def greet():
-    print("Hello World Welcome")
 
-greet()
+# def greet():
+#     print("Hello World Welcome")
+
+# greet()
+
+# import flask
+from flask import Flask, request
+
+# create flask app
+app = Flask(__name__) # double underscore
