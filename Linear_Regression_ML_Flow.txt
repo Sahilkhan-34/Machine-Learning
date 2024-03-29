@@ -36,8 +36,8 @@ we again build the model by apply the PCA
 Data is modifying 
 but here we will build only Linear regression only
 
-LR : MSE, RMSE, R2-Score
-C : Accuercy score, Cf, pr, rc, f1, 
+Linear Regression : MSE, RMSE, R2-Score
+classification : Accuercy score, Cf, pr, rc, f1, 
 
 
 
