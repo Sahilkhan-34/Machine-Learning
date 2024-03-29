@@ -24,7 +24,7 @@ async def addition(num1: int = Query(..., description="First number"), num2: int
 
 # For /addition1, since it's expecting query parameters, use GET method
 @app.get('/addition1')
-async def addition1(num1: int = Query(15, description="First number"), num2: int = Query(25, description="Second number")):
+async def addition1(num1: int = Query(76, description="First number"), num2: int = Query(25, description="Second number")):
     return {"result": num1 + num2}
 
 
