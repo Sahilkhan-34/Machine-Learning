@@ -17,3 +17,16 @@ from flask import Flask, request
 
 # create flask app
 app = Flask(__name__) # double underscore
+
+# app route or URL from the python functions
+# these routes connect to the web application
+@app.route('/') # its Decorator (starts with @)
+
+def greet():
+    print("Hello World Welcome")
+
+# greet() no need to write greet() 
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8000)
+
