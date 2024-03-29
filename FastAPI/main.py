@@ -33,3 +33,9 @@ if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=80)
 # if __name__ == "__app__":
 #     uvicorn.run(app, host="0.0.0.0", port=8000)
+    
+
+
+
+# App run on uvicorn main:app --reload  --host 0.0.0.0 --port 80
+# on web browser it run on 127.0.0.1
