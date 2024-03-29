@@ -30,7 +30,6 @@ async def addition1(num1: int = Query(..., description="First number"), num2: in
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
-    
+    uvicorn.run(app, host="0.0.0.0", port=80)
 # if __name__ == "__app__":
 #     uvicorn.run(app, host="0.0.0.0", port=8000)
