@@ -1,0 +1,6 @@
+numpy==1.24.3
+pandas
+scikit-learn
+
+# to install all the requirement run below code
+# pip install -r requrirement.txt
